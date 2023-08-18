@@ -1,0 +1,9 @@
+.new-pw {
+    position: relative;
+}
+
+.new-pw .msg-newpw {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}

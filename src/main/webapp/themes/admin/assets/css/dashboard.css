@@ -1,0 +1,70 @@
+.item{
+	border: 1px solid;    
+	margin-left:8px;
+}
+.station_name{
+	text-align: center;    
+    padding:8px;   
+    font-size:30px;        
+} 
+
+.icon-cancel-circle2{
+	color:red;
+	
+}
+.icon-checkmark-circle2{
+	color:green;
+	
+}
+.table{
+	margin-bottom :10px;
+}
+.table td{
+	border:none;
+	font-size: 20px;
+	padding:4px 0;
+}
+.table tbody+tbody{
+	border: none;
+}
+.item{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(157,224,220,1) 0%, rgba(242,246,192,1) 0%);
+	position: relative;
+    overflow: hidden;
+    /* margin-bottom: 80px; *//*This is optional*/
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width :100%;
+}
+.title{
+	font-size:20px;
+	width:50%;
+}
+.owl-item {
+    display: flex;
+    flex: 1 0 auto;
+    width :100% ;
+}
+.owl-carousel .owl-stage-outer .owl-stage{display: flex;}
+.icon-warning22{
+	color: #525252;
+	font-size: 17px !important;
+}
+.device_name{
+	font-size: 14px;
+}
+.no_device_message{
+	font-size: 24px;
+}
+.station_location{
+	font-size: 16px;
+}
+.icon-location3{
+	color:#160808;
+}
+
+
+  
+      
+  

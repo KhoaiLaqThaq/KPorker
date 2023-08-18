@@ -1,0 +1,566 @@
+/* navbar */
+
+#notification__icon.notification:after {
+	content: '';
+	background-color: red;
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 7px;
+	right: 7px;
+}
+
+.noti--list__scroll {
+	max-height: 340px;
+	overflow-y: auto;
+}
+.notification--item:hover {
+	opacity: 0.75;
+	background-color: #dddddd;
+}
+
+/* sidebar */
+.sidebar-xs .sidebar-user {
+	display: none;
+}
+.sidebar .nav-item #sidebar__toggle.sidebar--main__arrow {
+	transform: rotate(180deg);
+}
+
+.card-custom {
+	margin-bottom: 0;
+	box-shadow: 0 0 0 rgba(0,0,0,.05);
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.margin-button-search{
+	margin-right: 8px;
+}
+
+.route--action__link .route--action__title { font-size: 16px; }
+
+.route--action__link:hover .route--action__title { color: #FEC015 !important; }
+/*--------Custom Slide show Gallery*/
+.mySlides {
+	display: none;
+}
+	
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+	cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+.caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Six columns side by side */
+.column {
+	float: left;
+	width: 16.66%;
+	margin-left: 10px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+	opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+	opacity: 1;
+}
+.help-block {
+	margin-left: 2px;
+	color:red;
+}
+
+.btn-primary {
+background-color: #f0932b;
+}
+
+.btn-info {
+background-color: #2b38f0;
+}
+	
+.icon-pencil7 {
+	color: black;
+}
+.icon-trash {
+	color: black;
+}
+.btn {
+	border-radius: 20px;
+}
+.btn-disabled {
+	cursor: no-drop !important;
+}
+.icon-c-grey { color: #DDDDDD }
+	
+/* 	customize input button import file */
+.import--file__container {position: relative;}
+.js .input-file-trigger {
+	display: block;
+	text-align: center;
+	background: #fafafa;
+	color: #fff;
+	font-size: 12px;
+	transition: all .4s;
+	cursor: pointer;
+}
+.import--file {
+		position: absolute;
+		top: 0; left: 0;
+		opacity: 0;
+		padding: 10px 0;
+		cursor: pointer;
+	}
+.import--file:hover + .input-file-trigger,
+.import--file:focus + .input-file-trigger,
+.input-file-trigger:hover,
+.input-file-trigger:focus {
+	background: #f5f5f5;
+}
+
+.bg-primary {
+	background-color: #f0932b !important;
+}
+
+.text-none-data{
+	color: #919191;
+}
+.more-options {
+	padding: 0;
+	
+}
+
+td.more-options div.list-icon {
+	padding: 7px 9px;
+	width: 33px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+td.more-options div.list-icon:hover {
+	cursor: pointer;
+	background: #969494;
+}
+	
+.content {
+	background-color: #f1f1fe;
+}
+
+table tr td.groupCage-code {
+	max-width: 120px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.show {
+	display: block;
+}
+
+#chart-fixed-bottom {
+	display: none;
+	position: relative;
+	width: 100%;
+	padding-bottom: 25px;
+}
+
+#chart-fixed-bottom .label-breeding-days {
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+
+/* Color notification message */
+.content #messageCheckCode,
+.content #messageCheckName {
+	color: green;
+}
+
+label.error{
+	color:red;
+}
+
+.key{
+	width:40%;
+}
+
+.list-icons-item i{
+	font-size: 25px;
+}
+
+/* style common */
+.mh-400 {
+	min-height: 400px
+}
+
+.alert-style {
+	font-size: 20px;
+	text-align: center;
+}
+/* ----------color common------------ */
+.icon-green {
+	color: green;
+}
+.icon-red {
+	color: red;
+}
+.bg-navbar {
+	background-color: #fafafa;
+}
+.btn-sync {
+	background-color: #00796b;
+}
+.text-navbar {
+	color:#333333;
+}
+/* ------------/color common------------ */
+
+/*------------ table style -------------- */
+.table-scroll-x {
+	width: max-content;
+    overflow-x: auto;
+    display: table-caption;
+}
+
+.list-sm {
+	display: inline-block;
+	text-align: right;
+}
+
+.list-sm a {
+	display: initial;
+}
+
+.list-sm a:first-child {
+	margin-right: 1rem;
+}
+
+@media only screen and (max-device-width: 1360px) {
+	.maxH-300 { max-height: 200px !important; }
+}
+
+@media only screen and (max-device-width: 1074px) {
+	.list-sm {
+		display: inline-table;
+		margin-bottom: 2rem;
+		margin-top: 1rem;
+		
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.md-mt-2 {
+	   margin-top: 2em;
+	}
+}
+
+@media only screen and (max-device-width: 460px) {
+	.list-sm {
+		display: grid;
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+	}
+
+	.list-sm a:first-child {
+		margin-bottom: 16.25px;
+	}
+}
+
+/* --------------/table style------------- */ 
+
+.dropdown a { color: #333;}
+.notify-highlight li:hover{ background-color: #dfdcdc;}
+
+
+/* --------------font common-------------- */
+.fontSize18 { font-size: 18px; }
+.fontSize20 { font-size: 20px !important;}
+
+/* ---------------/font common--------------- */
+/* /style common */
+
+.text-decoration-underline { text-decoration: underline; }
+
+.text-legend {
+    font-family: 'FontAwesome';
+    text-transform: uppercase;
+}
+
+.btn-shadow {
+    border-radius: 50px;
+    box-shadow:  5px 5px 20px #bebebe,
+                 -5px -5px 20px #ffffff;
+}
+.btn-shadow:hover {
+    background-color: #26a69a;
+    border-radius: 50px;
+    box-shadow:  10px 10px 30px #bebebe,
+                 -10px -10px 30px #ffffff;
+}
+
+/*
+    phieu can style
+*/
+#showFormDetailModal { position: relative; }
+#showFormDetailModal .add-row-form-detail {
+	position: absolute;
+	z-index: 2;
+	top: -7px;
+    left:-120px;
+}
+#showFormDetailModal .add-plus {
+	position: absolute;
+	z-index: 1;
+	top:-3px;
+	left: -50px;
+}
+
+.btn-edit {
+	border: none;
+	cursor: pointer;
+}
+
+#tblMaterials tbody input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+#tblSelectedProcessOrders tbody input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+/* customize scroll */
+.table-scroll table {
+	position: relative;
+}
+.table-scroll table thead {
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+.table-scroll::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.table-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+.table-scroll::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #888; 
+}
+
+.table-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* input validate */
+#confirmToClose .error input:not([type="submit"]),
+#confirmForEvaluate .error input:not([type="submit"]) {
+	border-color: #EE2649;
+	box-shadow: 0 0 6px #ee2649;
+}
+
+#confirmToClose .focus input:not([type="submit"]),
+#confirmForEvaluate .focus input:not([type="submit"]) {
+	border-color: #2644ee;
+	box-shadow: 0 0 6px #2644ee;
+}
+
+/* report */
+#tbodyReportFarmAnalyst tr.active {
+	background-color: #ffc000;
+}
+
+#reportFarmAnalystForm table thead th.text-normal {
+	background-color: #fff !important;
+	font-weight:400 !important;
+}
+
+.group--actions__store {
+	min-height: 250px;
+}
+
+.group--actions__store .group--actions__title,
+.group--actions__report .group--actions__title
+ {
+	display: flex;
+	width: 100%;
+}
+
+.group--actions__store .group--routing ul li,
+.group--actions__report .group--routing ul li {
+	list-style: none;
+	border-bottom: 1px solid #8388A2;
+	padding: 8px 0;
+}
+
+.group--actions__other {
+	height: calc(250px/2 - 4px);
+}
+
+.active-action {
+	color: #FEC015;;
+}
+
+/* nav tab */
+.active-tab {
+	color: #FEC015 !important;
+	border-color: #02416F !important;
+	background-color: #eff3fd !important;
+	border-bottom-color: #eff3fd !important;
+	border-top-left-radius: 20px !important;
+	border-top-right-radius: 20px !important;
+}
+
+.nav-tabs {
+    margin-bottom: 1.25rem;
+    border-bottom-color: #02416F;
+}
+
+.nav-tabs .nav-link {
+	font-size: 1rem;
+}
+
+.tab-border {
+	border-bottom: 1px solid #02416F !important;
+}
+
+/* .multiselect-native-select .btn-group .btn {
+	border-radius: 0% !important;
+} */
+
+.notifyBox {
+	margin: 0.5rem 0.5rem;
+	padding: 0.5rem 0;
+	border-radius: 1rem;
+}
+
+
+::-webkit-scrollbar
+{
+	width: 6px;  /* for vertical scrollbars */
+	height: 5px;
+}
+
+::-webkit-scrollbar-track
+{
+	background: rgba(250, 250, 250, 0);
+}
+
+::-webkit-scrollbar-thumb
+{
+	background: rgba(112, 111, 111, 0.904);
+}
+
+/* card customize */
+.c-card {
+	position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.1875rem;
+	margin-bottom: 1.25rem;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+}
+
+#modalLoading {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	background-color: #37474f;
+	opacity: 0.3;
+	z-index: 999;
+	cursor: progress;
+}
+
+
+#modalLoading:hover {
+	cursor: wait;
+}
+
+#modalLoading .pace-demo {
+	background-color: unset;
+	top: 40%;
+	left: 50%;
+}
+
+.hide {
+	display: none;
+}
+
+.text-wrap{
+    white-space:normal !important;
+}
+
+.barn-select2 .multiselect-container.show {
+	display: inline-table;
+}
+
+/*GENERAL LEDGER*/
+#generalLedger__form table tr,
+#generalLedger__form table td {
+	padding: 5px;
+}

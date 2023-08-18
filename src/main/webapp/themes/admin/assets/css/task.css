@@ -1,0 +1,176 @@
+.task--header__container {
+  background-color: #03336844;
+}
+.task .task--table__container {
+  display: flex;
+}
+
+#task--table__content {
+  background-color: #03346813;
+}
+
+.task .task--table__container {padding-bottom: 10px;}
+.task .task--table__container:hover {
+  overflow-x: scroll;
+  
+}
+
+.task .task--table__container .task--column {
+  border-radius: 10px;
+  /* background-color: #f7f8f9; */
+  padding: 10px;
+  min-width: 240px;
+  margin-right: 20px;
+  height: fit-content;
+}
+
+.task .task--table__container .task--column.plan {background-color: #064d995a;}
+.task .task--table__container .task--column.todo {background-color: #f7f8f9;}
+.task .task--table__container .task--column.overdue {background-color: #df430b5a;}
+.task .task--table__container .task--column.done {background-color: #1a99065a;}
+.task .task--table__container .task--column.rejected {background-color: #ff000098;}
+
+.task .task--table__container .task--column .task--column__title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.task .task--table__container .task--column .task--column__data .task--column__item {
+  padding: 5px 10px;
+  box-shadow: 0 1px 1px #091E4240, 0 0 1px #091E424F, 0 1px 0 #091e4240;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.task .task--table__container .task--column .task--column__data .task--column__item:hover {
+  background-color: #bdbdbd81;
+  cursor: pointer;
+}
+
+.task .task--table__container .task--column .task--column__data .task--column__item .task--item__title {
+  font-size: 16px;
+  position: relative;
+}
+
+.task .task--table__container .task--column .task--column__data .task--column__item .task--item__title .task--item__actions {
+  display: none;
+  position: absolute;
+  top: 4px;
+  right: 0;
+}
+
+.task .task--table__container .task--column .task--column__data .task--column__item:hover .task--item__title .task--item__actions {
+  display: block;
+}
+
+.task .task--table__container .task--column .task--column__data .task--column__item .task--item__title .task--item__actions a {
+  background-color: #ccc;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.task .task--table__container .task--column .task--column__data .task--column__item .task--item__title .task--item__actions a i {
+  color: #6d6d6d;
+  width: 20px;
+  height: 20px;
+}
+
+.task .task--table__container .task--column .task--column__data .task--column__item:hover .task--item__title .task--item__actions {
+  display: block;
+}
+
+.task .task--table__container .task--column .task--column__data .task--column__item .task--item__content .desc {
+  color: #6e6e6ea9;
+}
+
+
+.task .task--list__icon {
+  padding: 3px;
+  cursor: pointer;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #f7f3f3;
+  border-radius: 3px;
+}
+
+.task .task--list__icon:hover {
+  border-color: #0260c4b0;
+  box-shadow: 1px 3px 4px #888484;
+}
+
+.task .task--list__icon.active {
+  border-color: #0369d6;
+  box-shadow: 1px 3px 4px #888484;
+}
+
+.task .task--group__list {
+  background-color: rgb(211 211 211) !important;
+}
+
+/* .task table tr td {
+  border: 0 !important;
+} */
+
+.task .task--group__title {
+  position: relative;
+}
+
+.task .task--group__list .task--group__title .task--todo__total,
+.task .task--group__list .task--group__title .task--done__total {
+  background-color: #4caf50;
+  border-radius: 10px;
+}
+
+.task .task--group__list .task--group__title .task--overdue__total {
+  background-color: #f44336;
+  border-radius: 10px;
+}
+
+.task--actions button {
+  margin-right: 1rem;
+}
+
+.task--status__group .task--group {
+  color: white;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+.task--status__group .done {
+  background-color: #4caf50;
+}
+.task--status__group .todo {
+  background-color: #f7f8f9;
+}
+.task--status__group .overdue {
+  background-color: #df430b;
+}
+.task--status__group .rejected {
+  background-color: #ff000098; }
+
+/* Task history */
+#task__form .task--history__container {
+  height: 0;
+  overflow-y: hidden;
+}
+
+#task__form .task--history__container.collapse {
+  height: auto;
+  overflow-y: auto;
+  display: block;
+}
+
+.task--history__container ul li {
+  list-style: none;
+  
+}
+
+@media screen and (max-width: 576px) {
+  .task--actions button {
+    width: 100%;
+  }
+}
+
+.document-list {
+  border-left-style: solid;
+  border-left-width: 1px;
+}
