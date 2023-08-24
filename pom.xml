@@ -20,7 +20,7 @@
 	<!-- PROPERTIES -->
 	<!-- ~~~~~~~~~~ -->
 	<properties>
-		<repo.host>svn.keysoft.asia:8079</repo.host>
+		<repo.host>nexus.keysoft.vn</repo.host>
 		<java.version>11</java.version>
 		<sitemesh.version>3.0.1</sitemesh.version>
 		<keycloak.version>15.0.0</keycloak.version>
